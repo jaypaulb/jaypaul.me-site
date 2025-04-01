@@ -1,0 +1,20 @@
+{
+  "name": "gamma-site-scraper",
+  "version": "1.0.0",
+  "description": "Scraper for jaypaul.me site content from Gamma",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "scrape": "node src/index.js",
+    "scrape:styles": "node src/styles.js",
+    "scrape:content": "node src/content.js",
+    "scrape:assets": "node src/assets.js"
+  },
+  "dependencies": {
+    "puppeteer": "^22.3.0",
+    "fs-extra": "^11.2.0",
+    "cheerio": "^1.0.0-rc.12",
+    "got": "^12.0.0",
+    "node-fetch": "^3.3.2"
+  }
+}

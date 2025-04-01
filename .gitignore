@@ -7,7 +7,6 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
-# Dependencies
 node_modules
 dist
 dist-ssr
@@ -23,27 +22,3 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
-
-# Environment variables
-.env
-.env.*
-!.env.example
-
-# Build output
-build/
-dist/
-
-# Testing
-coverage/
-
-# Scraping tools and output (entire directory)
-/scraper/
-scraper/
-
-# Temporary files
-*.tmp
-*.temp
-.cache/
-
-# Internal dev notes
-.notes/
