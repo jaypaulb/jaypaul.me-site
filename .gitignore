@@ -36,14 +36,14 @@ dist/
 # Testing
 coverage/
 
-# Scraping output (from Gamma site)
-/scraper/output/
-/scraper/assets/
+# Scraping tools and output (entire directory)
+/scraper/
+scraper/
 
 # Temporary files
 *.tmp
 *.temp
-.cache/ 
+.cache/
 
 # Internal dev notes
 .notes/
